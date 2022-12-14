@@ -1,6 +1,6 @@
 (module SML-E12V8WT86 (layer F.Cu) (tedit 0)
-  (fp_text reference LED1 (at -0.635 -0.508 90) (layer F.SilkS) hide
-    (effects (font (size 0.12065 0.12065) (thickness 0.01016)) (justify right top))
+  (fp_text reference POW (at -0.635 -0.508 -90) (layer F.SilkS)
+    (effects (font (size 0.12065 0.12065) (thickness 0.009652)) (justify left bottom))
   )
   (fp_text value SML-E12V8WT86 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))

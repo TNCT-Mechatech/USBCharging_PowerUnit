@@ -1,5 +1,5 @@
 (module RG2012 (layer F.Cu) (tedit 0)
-  (fp_text reference R3 (at 1.016 -0.762 -180) (layer F.SilkS)
+  (fp_text reference R1 (at 1.016 -0.762 -180) (layer F.SilkS)
     (effects (font (size 0.12065 0.12065) (thickness 0.009652)) (justify left bottom))
   )
   (fp_text value RG2012N-101-B-T5 (at 0 0) (layer F.SilkS) hide
