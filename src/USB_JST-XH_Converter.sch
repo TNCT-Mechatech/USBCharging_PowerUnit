@@ -2466,16 +2466,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheets>
 <sheet>
 <plain>
-<wire x1="8.89" y1="74.93" x2="8.89" y2="35.56" width="0.1524" layer="97"/>
-<wire x1="8.89" y1="35.56" x2="105.41" y2="35.56" width="0.1524" layer="97"/>
-<wire x1="105.41" y1="35.56" x2="105.41" y2="74.93" width="0.1524" layer="97"/>
-<wire x1="105.41" y1="74.93" x2="8.89" y2="74.93" width="0.1524" layer="97"/>
+<wire x1="24.13" y1="74.93" x2="24.13" y2="35.56" width="0.1524" layer="97"/>
+<wire x1="24.13" y1="35.56" x2="95.25" y2="35.56" width="0.1524" layer="97"/>
+<wire x1="95.25" y1="35.56" x2="95.25" y2="74.93" width="0.1524" layer="97"/>
+<wire x1="95.25" y1="74.93" x2="24.13" y2="74.93" width="0.1524" layer="97"/>
 <wire x1="118.11" y1="55.88" x2="118.11" y2="27.94" width="0.1524" layer="97"/>
 <wire x1="118.11" y1="27.94" x2="170.18" y2="27.94" width="0.1524" layer="97"/>
 <wire x1="170.18" y1="27.94" x2="170.18" y2="55.88" width="0.1524" layer="97"/>
 <wire x1="170.18" y1="55.88" x2="118.11" y2="55.88" width="0.1524" layer="97"/>
 <text x="139.7" y="25.4" size="1.778" layer="97">Switch</text>
-<text x="53.34" y="33.02" size="1.778" layer="97">Port</text>
+<text x="55.88" y="33.02" size="1.778" layer="97">Port</text>
 <text x="30.734" y="86.614" size="1.778" layer="97" rot="MR0">USB</text>
 <wire x1="56.896" y1="97.79" x2="56.896" y2="83.82" width="0.1524" layer="97"/>
 <wire x1="56.896" y1="83.82" x2="103.886" y2="83.82" width="0.1524" layer="97"/>
@@ -2509,25 +2509,25 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="LAST_DATE_TIME" x="140.97" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="154.305" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="PORT1" gate="G$1" x="16.51" y="66.04" smashed="yes">
-<attribute name="VALUE" x="15.24" y="58.42" size="1.778" layer="96"/>
-<attribute name="NAME" x="15.24" y="69.342" size="1.778" layer="95"/>
+<instance part="PORT1" gate="G$1" x="31.75" y="66.04" smashed="yes">
+<attribute name="VALUE" x="30.48" y="58.42" size="1.778" layer="96"/>
+<attribute name="NAME" x="30.48" y="69.342" size="1.778" layer="95"/>
 </instance>
-<instance part="PORT2" gate="G$1" x="36.83" y="66.04" smashed="yes">
-<attribute name="VALUE" x="35.56" y="58.42" size="1.778" layer="96"/>
-<attribute name="NAME" x="35.56" y="69.342" size="1.778" layer="95"/>
+<instance part="PORT2" gate="G$1" x="52.07" y="66.04" smashed="yes">
+<attribute name="VALUE" x="50.8" y="58.42" size="1.778" layer="96"/>
+<attribute name="NAME" x="50.8" y="69.342" size="1.778" layer="95"/>
 </instance>
-<instance part="PORT3" gate="G$1" x="58.42" y="66.04" smashed="yes">
-<attribute name="VALUE" x="57.15" y="58.42" size="1.778" layer="96"/>
-<attribute name="NAME" x="57.15" y="69.342" size="1.778" layer="95"/>
+<instance part="PORT3" gate="G$1" x="73.66" y="66.04" smashed="yes">
+<attribute name="VALUE" x="72.39" y="58.42" size="1.778" layer="96"/>
+<attribute name="NAME" x="72.39" y="69.342" size="1.778" layer="95"/>
 </instance>
-<instance part="PORT4" gate="G$1" x="78.74" y="66.04" smashed="yes">
-<attribute name="VALUE" x="77.47" y="58.42" size="1.778" layer="96"/>
-<attribute name="NAME" x="77.47" y="69.342" size="1.778" layer="95"/>
+<instance part="PORT4" gate="G$1" x="31.75" y="48.514" smashed="yes">
+<attribute name="VALUE" x="30.48" y="40.894" size="1.778" layer="96"/>
+<attribute name="NAME" x="30.48" y="51.816" size="1.778" layer="95"/>
 </instance>
-<instance part="PORT5" gate="G$1" x="16.51" y="48.26" smashed="yes">
-<attribute name="VALUE" x="15.24" y="40.64" size="1.778" layer="96"/>
-<attribute name="NAME" x="15.24" y="51.562" size="1.778" layer="95"/>
+<instance part="PORT5" gate="G$1" x="52.07" y="48.26" smashed="yes">
+<attribute name="VALUE" x="50.8" y="40.64" size="1.778" layer="96"/>
+<attribute name="NAME" x="50.8" y="51.562" size="1.778" layer="95"/>
 </instance>
 <instance part="SW1" gate="G$1" x="143.51" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="138.43" y="38.1" size="1.778" layer="95"/>
@@ -2622,28 +2622,28 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="VCC" class="0">
 <segment>
 <pinref part="PORT1" gate="G$1" pin="2"/>
-<wire x1="24.13" y1="66.04" x2="29.21" y2="66.04" width="0.1524" layer="91"/>
-<label x="25.4" y="66.04" size="1.778" layer="95"/>
+<wire x1="39.37" y1="66.04" x2="44.45" y2="66.04" width="0.1524" layer="91"/>
+<label x="40.64" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PORT2" gate="G$1" pin="2"/>
-<wire x1="44.45" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
-<label x="46.99" y="66.04" size="1.778" layer="95"/>
+<wire x1="59.69" y1="66.04" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
+<label x="62.23" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PORT3" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="66.04" x2="72.39" y2="66.04" width="0.1524" layer="91"/>
-<label x="68.58" y="66.04" size="1.778" layer="95"/>
+<wire x1="81.28" y1="66.04" x2="87.63" y2="66.04" width="0.1524" layer="91"/>
+<label x="83.82" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PORT4" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="66.04" x2="92.71" y2="66.04" width="0.1524" layer="91"/>
-<label x="88.9" y="66.04" size="1.778" layer="95"/>
+<wire x1="39.37" y1="48.514" x2="45.72" y2="48.514" width="0.1524" layer="91"/>
+<label x="41.91" y="48.514" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PORT5" gate="G$1" pin="2"/>
-<wire x1="24.13" y1="48.26" x2="29.21" y2="48.26" width="0.1524" layer="91"/>
-<label x="25.4" y="48.26" size="1.778" layer="95"/>
+<wire x1="59.69" y1="48.26" x2="64.77" y2="48.26" width="0.1524" layer="91"/>
+<label x="60.96" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="P$2"/>
@@ -2706,28 +2706,28 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <pinref part="PORT5" gate="G$1" pin="1"/>
-<wire x1="24.13" y1="45.72" x2="29.21" y2="45.72" width="0.1524" layer="91"/>
-<label x="25.4" y="45.72" size="1.778" layer="95"/>
+<wire x1="59.69" y1="45.72" x2="64.77" y2="45.72" width="0.1524" layer="91"/>
+<label x="60.96" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PORT1" gate="G$1" pin="1"/>
-<wire x1="24.13" y1="63.5" x2="29.21" y2="63.5" width="0.1524" layer="91"/>
-<label x="25.4" y="63.5" size="1.778" layer="95"/>
+<wire x1="39.37" y1="63.5" x2="44.45" y2="63.5" width="0.1524" layer="91"/>
+<label x="40.64" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PORT2" gate="G$1" pin="1"/>
-<wire x1="44.45" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
-<label x="46.99" y="63.5" size="1.778" layer="95"/>
+<wire x1="59.69" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
+<label x="62.23" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PORT3" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="63.5" x2="72.39" y2="63.5" width="0.1524" layer="91"/>
-<label x="68.58" y="63.5" size="1.778" layer="95"/>
+<wire x1="81.28" y1="63.5" x2="87.63" y2="63.5" width="0.1524" layer="91"/>
+<label x="83.82" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PORT4" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="63.5" x2="92.71" y2="63.5" width="0.1524" layer="91"/>
-<label x="88.9" y="63.5" size="1.778" layer="95"/>
+<wire x1="39.37" y1="45.974" x2="45.72" y2="45.974" width="0.1524" layer="91"/>
+<label x="41.91" y="45.974" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
