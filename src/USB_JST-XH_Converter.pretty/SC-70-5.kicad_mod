@@ -2,8 +2,8 @@
   (fp_text reference COMP1 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
   )
-  (fp_text value MCP6541T-I/LT (at -0.8 -2.8 -180) (layer F.Fab)
-    (effects (font (size 0.285 0.285) (thickness 0.0228)) (justify left bottom))
+  (fp_text value MCP6541T-I/LT (at -0.8 -2.8) (layer F.Fab) hide
+    (effects (font (size 0.285 0.285) (thickness 0.024)) (justify right top))
   )
   (fp_line (start 1 -1.725) (end -1 -1.725) (layer F.SilkS) (width 0.1))
   (fp_line (start -1 -1.725) (end -1 -0.475) (layer F.SilkS) (width 0.1))
