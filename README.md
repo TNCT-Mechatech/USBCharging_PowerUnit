@@ -2,9 +2,9 @@
 ドキュメント後から作ります....(2022/12/08時点)
 
 基板表<br>
-![image](https://user-images.githubusercontent.com/80198387/208136336-dc52f094-961f-4885-bbd8-7e4f8cff9b5c.png)<br>
+![image](https://user-images.githubusercontent.com/80198387/208458903-d6077a95-97c6-4af5-888b-618653ca329a.png)<br>
 
 基板裏<br>
-![image](https://user-images.githubusercontent.com/80198387/208136496-b659b36e-3c2d-4ed2-a688-7b0d470594ed.png)<br>
+![image](https://user-images.githubusercontent.com/80198387/208458686-b9b83963-0463-4c36-9e1b-f93579c67590.png)<br>
 
-かわいい
+(部品実装密度が)えっち
