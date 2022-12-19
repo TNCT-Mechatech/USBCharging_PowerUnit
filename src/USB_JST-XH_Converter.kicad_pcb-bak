@@ -2724,7 +2724,7 @@
     )
   )
 
-  (gr_text FET2 (at 166.15 98.4) (layer F.SilkS)
+  (gr_text FET2 (at 166.1 98.4) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.07)))
   )
   (gr_text R16 (at 157.475 96.7 90) (layer F.SilkS)
