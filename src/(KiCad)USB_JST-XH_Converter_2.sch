@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -438,4 +438,23 @@ Text Notes 5600 5100 0    59   ~ 0
 eFuse
 Text Notes 9100 6200 0    85   ~ 0
 完
+$Comp
+L USB_JST-XH_Converter-eagle-import:RG2012 R?
+U 1 1 63A2BE04
+P 3700 3300
+AR Path="/63A2BE04" Ref="R?"  Part="1" 
+AR Path="/639B4D5D/63A2BE04" Ref="R?"  Part="1" 
+AR Path="/639EC9D1/63A2BE04" Ref="R?"  Part="1" 
+F 0 "R?" H 3830 3310 25  0000 L BNN
+F 1 "100k" H 3830 3260 25  0000 L BNN
+F 2 "USB_JST-XH_Converter:RG2012" H 3700 3300 50  0001 C CNN
+F 3 "" H 3700 3300 50  0001 C CNN
+	1    3700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3300 4000 3300
+Connection ~ 4000 3300
+Wire Wire Line
+	3500 3300 3500 2900
 $EndSCHEMATC
